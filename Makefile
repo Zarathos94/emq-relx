@@ -7,7 +7,7 @@ DEPS = goldrush
 dep_goldrush = git https://github.com/basho/goldrush 0.1.9
 
 DEPS += emqttd emq_modules emq_dashboard emq_retainer emq_recon emq_reloader \
-        emqttd_plugin_kafka_bridge emq_auth_clientid emq_auth_username emq_auth_ldap \
+        emq_rmq emq_auth_clientid emq_auth_username emq_auth_ldap \
 		emq_auth_http emq_auth_mysql emq_auth_pgsql emq_auth_redis emq_auth_mongo \
         emq_plugin_template emq_web_hook \
         emq_lua_hook emq_auth_jwt
@@ -19,7 +19,7 @@ dep_emq_dashboard = git https://github.com/emqtt/emq-dashboard master
 dep_emq_retainer  = git https://github.com/emqtt/emq-retainer master
 dep_emq_recon     = git https://github.com/emqtt/emq-recon master
 dep_emq_reloader  = git https://github.com/emqtt/emq-reloader master
-dep_emqttd_plugin_kafka_bridge = git https://github.com/Zarathos94/emqttd_kafka_plugin_rev master
+dep_emq_rmq = git https://github.com/Zarathos94/emqttd_kafka_plugin_rev master
 
 # emq auth/acl plugins
 dep_emq_auth_clientid = git https://github.com/emqtt/emq-auth-clientid master
